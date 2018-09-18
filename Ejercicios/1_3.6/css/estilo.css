@@ -1,0 +1,16 @@
+
+body{
+  background-color: black;
+  color:white;
+  font-style: verdana;
+}
+h1{
+  font-style: verdana;
+}
+a{
+  color:white;
+}
+div{
+  margin-top: 10px;
+  margin-left: 20px;
+}
