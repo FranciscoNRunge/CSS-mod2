@@ -1,0 +1,36 @@
+body{
+  padding:20px 20px 20px 20px;
+}
+#main{
+  padding: 20px 0 20px 0;
+}
+a[href^=html]{
+  text-decoration: none;
+  color:green;
+
+}
+a:hover{
+  text-decoration: underline;
+}
+html{
+  text-decoration: none;
+}
+#main a + a::before {
+content: " | ";
+color: black;
+}
+footer{
+  margin-top: 20px;
+  border-top: solid 1px black;
+  padding-top: 10px;
+  text-align: center;
+}
+table{
+  border-collapse:collapse;
+}
+#vuelos th, td{
+  border-style: solid;
+  border-width: 1xp;
+  border-color: black;
+  padding: 10px 10px 10px 
+}
